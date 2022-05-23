@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Hello World</title>
+<title>Struts Demo</title>
 </head>
 <body bgcolor="cyan">
  <h1><bean:write name="helloWorldForm" property="message"/></h1>

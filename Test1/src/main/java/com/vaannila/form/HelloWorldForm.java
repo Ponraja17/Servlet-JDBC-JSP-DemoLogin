@@ -7,7 +7,7 @@ public class HelloWorldForm extends ActionForm {
     private static final long serialVersionUID = -473562596852452021L;
 
     private String message;
-String a="Raja";
+
     public String getMessage() {
         return message;
     }

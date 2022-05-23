@@ -15,8 +15,9 @@
     </global-forwards>
 
     <action-mappings>
-        <action path="/helloWorld" type="com.vaannila.action.HelloWorldAction" name="helloWorldForm">
+        <action path="/helloWorld" type="com.vaannila.action.HelloWorldAction" name="helloWorldForm" parameter="parameter">
         	<forward name="success" path="/helloWorld.jsp" />
+        	 <forward name="failure" path="/helloWorld.jsp" />
         </action>
     </action-mappings>
 
